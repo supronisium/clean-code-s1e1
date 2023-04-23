@@ -47,11 +47,14 @@ ul {
     padding: 0px;
 }
 
-li, h1, h2 {
+li, 
+h1, 
+h2 {
     list-style: none;
 }
 
-input,button{
+input,
+button {
     outline: none;
 }
 
@@ -71,7 +74,9 @@ button:hover {
 
 /* Heading */
 
-h1, h2, label[for='new-task'] {
+h1, 
+h2, 
+label[for='new-task'] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
