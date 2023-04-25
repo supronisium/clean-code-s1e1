@@ -76,7 +76,7 @@ button:hover {
 
 h1, 
 h2, 
-label[for='new-task'] {
+label[for="new-task"] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
