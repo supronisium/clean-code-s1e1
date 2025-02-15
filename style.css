@@ -38,8 +38,9 @@ body {
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.section__new-task {
   display: flex;
+  padding-top:20px;
 }
 
 ul {
@@ -71,8 +72,7 @@ button:hover {
 
 /* Heading */
 
-h3,
-label[for="new-task"] {
+h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
