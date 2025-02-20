@@ -21,11 +21,6 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-  .header { text-align: center;
-}
-
-}
 .main {
   display: block;
   width: 500px;
@@ -134,7 +129,7 @@ li > label {
   width: 226px;
 }
 
-li >    input[type="text"] {
+li > input[type="text"] {
   width: 226px
 }
 
@@ -151,7 +146,7 @@ button.delete img:hover {
 /* Completed */
 
 ul#completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
@@ -168,4 +163,11 @@ ul li.editMode input[type=text] {
 
 ul li.editMode label {
   display:none;
+}
+
+
+@media (max-width:768px) {
+  .header {
+    text-align: center;
+  }
 }
